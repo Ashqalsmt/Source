@@ -4,7 +4,7 @@ from sample_config import Config
 class Development(Config):
     # ضـع اكـوادك تحت مكـان الكـلام العـربي  .. امسـح الكلام العربي اللي بين " " فقـط وضع اكـوادك
     APP_ID = 29914850 #ضع كود الايبي ايدي الصغيـر مكان الرقم 6 نسخ لصق   
-    API_HASH = "ضع كود الايبي هاش"
+    API_HASH = "de7b0ee6f49fff7b4a5f0e5c015972ce"
     ALIVE_NAME = "اسم حسابك التلي"
     DB_URI = "رابـط التخـزين الخـاص بك"
     STRING_SESSION = "كود تيرمــكس"
