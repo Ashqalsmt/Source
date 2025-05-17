@@ -32,7 +32,7 @@ class Config(object):
     TZ = os.environ.get("TZ", "Asia/Baghdad")
     # set this with required zed repo link
     UPSTREAM_REPO = os.environ.get(
-        "UPSTREAM_REPO", "https://github.com/Repthon-Arabic/RepthonAr"
+        "UPSTREAM_REPO", "https://github.com/Ashqalsmt/Source.git"
     )
     # External plugins repo
     EXTERNAL_REPO = os.environ.get("EXTERNAL_REPO", None)
@@ -188,9 +188,9 @@ class Config(object):
     BOTLOG_CHATID = 0
     # extra plugins realted vars below  4
     EXTERNAL_REPOBRANCH = os.environ.get("EXTERNAL_REPOBRANCH", "web")
-    OLDREP_REPO = os.environ.get("OLDREP_REPO", "https://github.com/RepthonArabic/RepthonAr")
+    OLDREP_REPO = os.environ.get("OLDREP_REPO", "https://github.com/Ashqalsmt/Source.git")
     if OLDREP_REPO and not url(OLDREP_REPO):
-        OLDREP_REPO = "https://github.com/RepthonArabic/RepthonAr"
+        OLDREP_REPO = "https://github.com/Ashqalsmt/Source.git"
     OLDREP_REPOBRANCH = os.environ.get("OLDREP_REPOBRANCH", "master")
     VC_REPO = os.environ.get("VC_REPO", "https://github.com/Repthon-Arabic/RepVC")
     VC_REPOBRANCH = os.environ.get("VC_REPOBRANCH", "main")
