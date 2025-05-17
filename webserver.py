@@ -1,12 +1,11 @@
+from flask import Flask
 import os
-from aiohttp import web
 
-async def handle(request):
-    return web.Response(text="🤖 Yuserbot is alive on Render!")
+app = Flask(__name__)
 
-app = web.Application()
-app.router.add_get("/", handle)
+@app.route('/')
+def home():
+    return 'Userbot is running!'
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 10000))
-    web.run_app(app, port=port)
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
