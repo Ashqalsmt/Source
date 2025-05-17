@@ -6,5 +6,5 @@ pip install -r requirements.txt
 # Run webserver for uptime
 python3 webserver.py &
 
-# Run the bot
-python3 app.py
+# Run the bot properly
+python3 -m repthon
