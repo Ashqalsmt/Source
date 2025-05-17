@@ -25,7 +25,7 @@ StartTime = time.time()
 repversion = "3.1.3"
 
 if Config.UPSTREAM_REPO == "Repthon":
-    UPSTREAM_REPO_URL = "https://github.com/Repthon-Arabic/RepthonAr"
+    UPSTREAM_REPO_URL = "https://github.com/Ashqalsmt/Source.git"
 else:
     UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
 
